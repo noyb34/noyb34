@@ -1,4 +1,4 @@
-![Header](./github_profile_bg_proch.jpg)
+![Header](./github_profile_proch2.jpg)
 
 # Hi there 👋, I'm Patrick
 
@@ -17,7 +17,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# About Me:
 - 💫 I’m a seasoned Product Development Leader where product management, data science, and machine learning converge. 
 - 🌱 My passion for utilizing advanced analytics and AI to gain deeper insights into end-user behaviors and needs is at the heart of my work. With extensive experience in leading technical teams and managing large-scale data projects, I excel in developing solutions that meet and exceed customer expectations.
 - ⚡ My journey in tech has been marked by a commitment to innovation, especially in harnessing data science to drive product strategy and development.
