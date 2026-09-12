@@ -2,39 +2,39 @@
 
 > **Innovation creates possibilities. Systems create businesses.**
 
-VP, Platform Product Management & Solution Architecture. I architect the developer platforms, cloud infrastructure, analytical foundations, and autonomous agent runtimes that power intelligent enterprise operations.
+VP, Platform Product Management & Solution Architecture. I bridge enterprise product strategy with the plumbing required to run production AI: developer portals, read-only MCP gateways, medallion data platforms, and governed agent runtimes.
 
 ---
 
-### Architectural Focus & Systems Built
+### What I Build & Architect
 
-* **Enterprise Developer Platforms & DX:** Architected end-to-end client-facing and internal developer portals—designing OpenAPI contracts, sandbox environments, and developer experience surfaces that transform internal capabilities into composable products.
-* **Agentic Gateways & Model Context Protocol (MCP):** Engineering read-only MCP services and tool-calling boundaries to expose enterprise APIs and warehouse layers to autonomous agents with strict runtime isolation.
-* **Cloud & Container Infrastructure:** Architected multi-cloud topologies across AWS and Azure, automated CI/CD deployment pipelines, and containerized API runtimes on AWS ECS Fargate.
-* **Modern Analytical Data Foundations:** Structuring medallion data architectures (Bronze/Silver/Gold) using dbt, vectorized processing with DuckDB, and PostgreSQL configured as an analytical warehouse.
-* **Autonomous Decision & Analytics Agents:** Designing deterministic execution boundaries, tool validation gates, and state-machine governance for analytical agents.
+* **Enterprise Developer Portals & DX:** Delivered dual-surface (client-facing and internal) API platforms. Structured OpenAPI contracts, sandbox validation environments, and developer ergonomics that treat platform APIs as revenue-generating products.
+* **Agentic Gateways & Read-Only MCP:** Engineering Model Context Protocol (MCP) services to safely expose enterprise APIs and warehouse layers to LLM agents—enforcing zero-trust boundaries, output budgets, and read-only execution constraints.
+* **Modern Analytical Data Foundations:** Designing medallion architectures (Bronze/Silver/Gold) using dbt for relational models, DuckDB for in-memory vectorized processing, and PostgreSQL configured and tuned as an analytical warehouse.
+* **Autonomous Decision & Analytics Agents:** Designing runtime isolation, tool-calling validation gates, and deterministic state-machine transitions (CAS) for specialized analytical agents.
+* **Containerized Cloud Infrastructure:** Architecting automated CI/CD pipelines deploying containerized microservices to AWS ECS Fargate, with multi-cloud topology design across AWS and Azure.
 
 ---
 
-### Core Architectural & Engineering Stack
+### Systems & Architectural Matrix
 
-| Domain | Architecture & Core Technologies |
+| Layer | Architecture, Runtimes & Tooling |
 | :--- | :--- |
-| **Developer Platforms & APIs** | Developer Portals · OpenAPI/REST · Sandbox Workflows · MCP Gateways |
-| **Cloud Runtimes & Infrastructure** | AWS (ECS Fargate) · Azure · Docker · Automated CI/CD Pipelines · Linux Toolchains |
-| **Data Warehouse & Transformation** | dbt · PostgreSQL (Analytics/DWH) · DuckDB · Medallion Modeling · Parquet |
-| **Agent Platforms & Governance** | Analytics Agents · Tool Calling / MCP · State Machine Governance · Python · Rust |
-| **Strategy & Delivery** | Enterprise Solution Architecture · Product Management · Platform Unit Economics |
+| **Developer Surfaces** | Internal/External Developer Portals · OpenAPI / REST · Sandbox Environments |
+| **Agent Gateways & Control** | Read-Only MCP · Tool Calling · State Machine Boundaries (CAS) · Python · Rust |
+| **Data Warehouse & Engines** | dbt · DuckDB (Vectorized Processing) · PostgreSQL (Analytical DWH) · Parquet |
+| **Cloud & Runtime Ops** | AWS (ECS Fargate) · Azure · Docker · CI/CD Pipelines · Automated Deployment |
+| **Commercial Platform Strategy** | Platform Unit Economics · API Monitization · Solution Architecture |
 
 ---
 
-### Operating Principles
+### Operating Theses
 
-* *APIs, developer portals, and MCP surfaces are core products, not afterthoughts.*
-* *AI is easy to demo. Dependable, governed platforms are hard to build.*
-* *An agent runtime is only as trustworthy as the schema boundaries and data pipelines feeding its context.*
+* *APIs, developer portals, and MCP surfaces are core products, not documentation side-projects.*
+* *An analytics agent is only as dependable as the SQL models and schema contracts feeding its context.*
+* *AI is easy to demo. Dependable, bounded platforms are hard to build.*
 * *Infrastructure exists to create product velocity and architectural leverage, not operational complexity.*
-* *Prefer bounded, testable state transitions over open-ended, non-deterministic autonomy.*
+* *Never deploy unconstrained autonomy where a deterministic state machine belongs.*
 
 ---
 
