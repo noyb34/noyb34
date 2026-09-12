@@ -29,9 +29,9 @@
   <text x="40" y="52" class="mono">SHEET P-001 · ARCHITECTURE &amp; SYSTEMS</text>
 
   <!-- Status Badge Box -->
-  <rect x="735" y="38" width="105" height="22" fill="#ffffff" stroke="#d1d5db" stroke-width="1" />
-  <circle cx="747" cy="49" r="3.5" fill="#10b981" />
-  <text x="758" y="53" class="mono" fill="#111827" font-weight="600">SYS · ONLINE</text>
+  <rect x="720" y="38" width="120" height="22" fill="#ffffff" stroke="#d1d5db" stroke-width="1" />
+  <circle cx="732" cy="49" r="3.5" fill="#10b981" />
+  <text x="743" y="53" class="mono" style="fill: #111827" font-weight="600">SYS · ONLINE</text>
 
   <!-- Title & Scope -->
   <text x="40" y="94" class="title">PATRICK ROCH // NOYB34</text>
