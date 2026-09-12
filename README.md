@@ -1,14 +1,23 @@
+<p align="center">
+  <img src="./assets/header.svg" alt="NOYB34 Drafting Header" width="100%">
+</p>
+
+`DRAWING SET P-100`
+### ACTIVE ARCHITECTURES & REPOSITORIES
+
+| REF | COMPONENT | FOCUS | SPEC |
+| :--- | :--- | :--- | :--- |
+| `01 · SYS` | **autonomous-harness** | Role-based agentic harness & execution runtime | `TS` `DOCKER` `RUNTIME` |
+| `02 · SYS` | **market-arbitrage-engine** | Embedding match pipeline across decentralized order books | `PYTHON` `REST` `VECTOR` |
+| `03 · SYS` | **tyk-developer-portal** | Enterprise drafting design system & gateway access layer | `CSS` `GATEWAYS` `OPENAPI` |
+
+---
+
 # Patrick Roch
 
 > **Innovation creates possibilities. Systems create businesses.**
 
 VP, Platform Product Management & Solution Architecture. I architect the developer platforms, analytical engines, cloud foundations, and governed agent runtimes that power intelligent enterprise operations.
-
----
-
-### Platform System Architecture
-
-![Developer portals connect through read-only MCP gateways to isolated analytics agents and a medallion data warehouse powered by dbt, DuckDB, and PostgreSQL.](./platform-system-architecture.svg)
 
 ---
 
