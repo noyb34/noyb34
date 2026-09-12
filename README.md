@@ -21,6 +21,12 @@ VP, Platform Product Management & Solution Architecture. I architect the develop
 
 ---
 
+### Platform System Architecture
+
+![Developer portals connect through read-only MCP gateways to isolated analytics agents and a medallion data warehouse powered by dbt, DuckDB, and PostgreSQL.](./assets/platform-system-architecture.svg)
+
+---
+
 ### Core Focus & Systems Built
 
 * **Enterprise Developer Platforms & DX:** Architected dual-surface (internal & client-facing) developer portals. Designed OpenAPI contracts, sandbox validation environments, and developer ergonomics that treat platform APIs as revenue-generating products.

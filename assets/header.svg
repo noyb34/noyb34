@@ -1,46 +1,64 @@
-<svg width="920" height="110" viewBox="0 0 920 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
-  <title id="title">Platform system architecture</title>
-  <desc id="description">Developer portals connect through read-only MCP gateways to isolated analytics agents and a medallion data warehouse powered by dbt, DuckDB, and PostgreSQL.</desc>
+<svg width="880" height="240" viewBox="0 0 880 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Patrick Roch // NOYB34</title>
+  <desc id="description">Engineering leadership, distributed systems architecture, and autonomous runtime harness design. Architecture, TypeScript, agentic harness, and gateways.</desc>
   <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M 0 1 L 8 5 L 0 9 z" fill="#64748B"/>
-    </marker>
+    <!-- Drafting Dot Grid Pattern -->
+    <pattern id="dot-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#cfd4dc" />
+    </pattern>
   </defs>
+
   <style>
-    .card { fill: #0B0F19; stroke: #1E293B; stroke-width: 1.5; }
-    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-weight: 700; fill: #94A3B8; letter-spacing: 0.08em; text-transform: uppercase; }
-    .val { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #F8FAFC; }
-    .sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #94A3B8; }
-    .edge { stroke: #334155; stroke-width: 1.5; stroke-dasharray: 4 3; marker-end: url(#arr); }
+    .mono { font-family: "SF Mono", "Fira Code", monospace; font-size: 11px; fill: #6b7280; letter-spacing: 0.08em; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; font-size: 30px; font-weight: 800; fill: #111827; letter-spacing: -0.03em; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; font-size: 13px; fill: #4b5563; }
+    .tag { font-family: "SF Mono", "Fira Code", monospace; font-size: 10px; fill: #111827; letter-spacing: 0.05em; }
   </style>
 
-  <!-- Node 1: Developer Experience -->
-  <rect class="card" x="10" y="15" width="200" height="80" rx="8"/>
-  <text class="label" x="25" y="38">Platform DX</text>
-  <text class="val" x="25" y="58">Developer Portals</text>
-  <text class="sub" x="25" y="76">Internal &amp; Client APIs</text>
+  <!-- Canvas Background -->
+  <rect width="880" height="240" fill="#f4f5f4" />
+  <rect width="880" height="240" fill="url(#dot-grid)" />
 
-  <line class="edge" x1="210" y1="55" x2="242" y2="55"/>
+  <!-- Outer Solid Frame -->
+  <rect x="16" y="16" width="848" height="208" fill="none" stroke="#d1d5db" stroke-width="1" />
 
-  <!-- Node 2: Gateways -->
-  <rect class="card" x="245" y="15" width="200" height="80" rx="8"/>
-  <text class="label" x="260" y="38">Control Boundary</text>
-  <text class="val" x="260" y="58">Read-Only MCP</text>
-  <text class="sub" x="260" y="76">Zero-Trust Tool Calls</text>
+  <!-- Inner Dashed Drafting Frame -->
+  <rect x="22" y="22" width="836" height="196" fill="none" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4 4" />
 
-  <line class="edge" x1="445" y1="55" x2="477" y2="55"/>
+  <!-- Top Metadata Track -->
+  <text x="40" y="52" class="mono">SHEET P-001 · ARCHITECTURE &amp; SYSTEMS</text>
 
-  <!-- Node 3: Execution Engine -->
-  <rect class="card" x="480" y="15" width="200" height="80" rx="8"/>
-  <text class="label" x="495" y="38">Runtime Isolation</text>
-  <text class="val" x="495" y="58">Analytics Agents</text>
-  <text class="sub" x="495" y="76">CAS State Machines</text>
+  <!-- Status Badge Box -->
+  <rect x="720" y="38" width="120" height="22" fill="#ffffff" stroke="#d1d5db" stroke-width="1" />
+  <circle cx="732" cy="49" r="3.5" fill="#10b981" />
+  <text x="743" y="53" class="mono" style="fill: #111827" font-weight="600">SYS · ONLINE</text>
 
-  <line class="edge" x1="680" y1="55" x2="712" y2="55"/>
+  <!-- Title & Scope -->
+  <text x="40" y="94" class="title">PATRICK ROCH // NOYB34</text>
+  <text x="40" y="122" class="desc">Engineering leadership, distributed systems architecture, and autonomous runtime harness design.</text>
 
-  <!-- Node 4: Data Core -->
-  <rect class="card" x="715" y="15" width="195" height="80" rx="8"/>
-  <text class="label" x="730" y="38">Analytical Core</text>
-  <text class="val" x="730" y="58">Medallion DWH</text>
-  <text class="sub" x="730" y="76">dbt · DuckDB · Postgres</text>
+  <!-- Horizontal Drafting Divider -->
+  <line x1="40" y1="145" x2="840" y2="145" stroke="#111827" stroke-width="1.5" />
+
+  <!-- Monospace Specification Tags -->
+  <g transform="translate(40, 165)">
+    <!-- Tag 1 -->
+    <rect x="0" y="0" width="105" height="22" fill="#ffffff" stroke="#d1d5db" stroke-width="1" />
+    <text x="10" y="15" class="tag">ARCHITECTURE</text>
+
+    <!-- Tag 2 -->
+    <rect x="113" y="0" width="100" height="22" fill="#ffffff" stroke="#d1d5db" stroke-width="1" />
+    <text x="123" y="15" class="tag">TYPESCRIPT</text>
+
+    <!-- Tag 3 -->
+    <rect x="221" y="0" width="125" height="22" fill="#ffffff" stroke="#d1d5db" stroke-width="1" />
+    <text x="231" y="15" class="tag">AGENTIC HARNESS</text>
+
+    <!-- Tag 4 -->
+    <rect x="354" y="0" width="85" height="22" fill="#ffffff" stroke="#d1d5db" stroke-width="1" />
+    <text x="364" y="15" class="tag">GATEWAYS</text>
+  </g>
+
+  <!-- Drawing Revision Bottom Annotation -->
+  <text x="695" y="180" class="mono">SCALE NTS · REV 1.0</text>
 </svg>
