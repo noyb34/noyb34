@@ -1,0 +1,46 @@
+<svg width="920" height="110" viewBox="0 0 920 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Platform system architecture</title>
+  <desc id="description">Developer portals connect through read-only MCP gateways to isolated analytics agents and a medallion data warehouse powered by dbt, DuckDB, and PostgreSQL.</desc>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#64748B"/>
+    </marker>
+  </defs>
+  <style>
+    .card { fill: #0B0F19; stroke: #1E293B; stroke-width: 1.5; }
+    .label { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; font-weight: 700; fill: #94A3B8; letter-spacing: 0.08em; text-transform: uppercase; }
+    .val { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #F8FAFC; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; fill: #94A3B8; }
+    .edge { stroke: #334155; stroke-width: 1.5; stroke-dasharray: 4 3; marker-end: url(#arr); }
+  </style>
+
+  <!-- Node 1: Developer Experience -->
+  <rect class="card" x="10" y="15" width="200" height="80" rx="8"/>
+  <text class="label" x="25" y="38">Platform DX</text>
+  <text class="val" x="25" y="58">Developer Portals</text>
+  <text class="sub" x="25" y="76">Internal &amp; Client APIs</text>
+
+  <line class="edge" x1="210" y1="55" x2="242" y2="55"/>
+
+  <!-- Node 2: Gateways -->
+  <rect class="card" x="245" y="15" width="200" height="80" rx="8"/>
+  <text class="label" x="260" y="38">Control Boundary</text>
+  <text class="val" x="260" y="58">Read-Only MCP</text>
+  <text class="sub" x="260" y="76">Zero-Trust Tool Calls</text>
+
+  <line class="edge" x1="445" y1="55" x2="477" y2="55"/>
+
+  <!-- Node 3: Execution Engine -->
+  <rect class="card" x="480" y="15" width="200" height="80" rx="8"/>
+  <text class="label" x="495" y="38">Runtime Isolation</text>
+  <text class="val" x="495" y="58">Analytics Agents</text>
+  <text class="sub" x="495" y="76">CAS State Machines</text>
+
+  <line class="edge" x1="680" y1="55" x2="712" y2="55"/>
+
+  <!-- Node 4: Data Core -->
+  <rect class="card" x="715" y="15" width="195" height="80" rx="8"/>
+  <text class="label" x="730" y="38">Analytical Core</text>
+  <text class="val" x="730" y="58">Medallion DWH</text>
+  <text class="sub" x="730" y="76">dbt · DuckDB · Postgres</text>
+</svg>
